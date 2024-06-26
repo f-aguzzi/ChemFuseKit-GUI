@@ -5,7 +5,11 @@ description = "Add your description here"
 authors = [
     { name = "Federico Aguzzi", email = "62149513+f-aguzzi@users.noreply.github.com" }
 ]
-dependencies = []
+dependencies = [
+    "streamlit>=1.36.0",
+    "setuptools>=70.1.1",
+    "chemfusekit==3.0.0b2",
+]
 readme = "README.md"
 requires-python = ">= 3.8"
 
@@ -15,7 +19,9 @@ build-backend = "hatchling.build"
 
 [tool.rye]
 managed = true
-dev-dependencies = []
+dev-dependencies = [
+    "setuptools>=70.1.1",
+]
 
 [tool.hatch.metadata]
 allow-direct-references = true
