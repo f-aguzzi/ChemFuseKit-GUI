@@ -23,9 +23,9 @@ certifi==2024.6.2
     # via requests
 charset-normalizer==3.3.2
     # via requests
-chemfusekit==3.0.0b2
+chemfusekit==3.0.0b18
     # via chemfusekit-gui
-click==8.1.7
+click==7.1.2
     # via streamlit
 contourpy==1.2.1
     # via matplotlib
@@ -99,7 +99,7 @@ platformdirs==4.2.2
     # via jupyter-core
 plotly==5.22.0
     # via chemfusekit
-protobuf==5.27.1
+protobuf==5.27.2
     # via streamlit
 pyarrow==16.1.0
     # via streamlit
@@ -131,8 +131,6 @@ scipy==1.14.0
     # via scikit-learn
 seaborn==0.13.2
     # via chemfusekit
-setuptools==70.1.1
-    # via chemfusekit-gui
 six==1.16.0
     # via python-dateutil
 smmap==5.0.1
