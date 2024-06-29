@@ -6,8 +6,9 @@ authors = [
     { name = "Federico Aguzzi", email = "62149513+f-aguzzi@users.noreply.github.com" }
 ]
 dependencies = [
-    "chemfusekit==3.0.0b18",
+    "chemfusekit==3.1.0b3",
     "streamlit>=1.36.0",
+    "xlsxwriter>=3.2.0",
 ]
 readme = "README.md"
 requires-python = ">= 3.11"
